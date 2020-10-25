@@ -1,4 +1,4 @@
-function towelSort (matrix) {
+module.exports = function towelSort (matrix) {
   let result = [];
   if (!matrix)return [];
   for(let i = 0; i < matrix.length; i++)
